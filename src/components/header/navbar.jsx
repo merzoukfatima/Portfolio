@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "./logo";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -8,17 +9,18 @@ export default function Navbar() {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="-20 bg-primary">
+    <nav className="z-20 bg-primary">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto lg:px-20 md:px-20">
         <div className="flex-1">
           <Logo />
         </div>
         <div className="flex items-center justify-end flex-1 lg:order-2">
+          <Link href="#Contact">
           <button
             type="button"
             className="inline-flex items-center justify-center px-4 py-2 space-x-2 font-semibold leading-6 border-2 rounded-lg border-secondary bg-tertiary text-secondary hover:bg-secondary hover:text-tertiary hover:border-tertiary">
             Get In Touch
-          </button>
+          </button></Link>
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
@@ -58,32 +60,32 @@ export default function Navbar() {
           id="mobile-menu">
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="block px-3 py-2 text-lg border-t border-secondary lg:border-0 font-barlow text-secondary"
                 aria-current="page">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="#AboutMe"
                 className="block px-3 py-2 text-lg border-t border-secondary lg:border-0 font-barlow text-secondary"
                 aria-current="page">
                 About Me
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="#Skills"
                 className="block px-3 py-2 text-lg border-t font-barlow lg:border-0 border-secondary text-secondary"
                 aria-current="page">
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
               <a
-                href="#"
+                href="#Projects"
                 className="block px-3 py-2 text-lg border-t border-b lg:border-0 font-barlow border-secondary text-secondary"
                 aria-current="page">
                 Projects
