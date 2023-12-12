@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectsSection() {
   return (
-    <>
+    <main id="Projects">
       <div className="relative pt-6 overflow-hidden bg-primary dark:bg-gray-900 dark:text-gray-100">
         {/* Hero Content */}
         <div className="relative flex flex-col px-4 py-16 mx-auto space-y-16 text-center lg:flex-row lg:space-y-0 lg:px-20 lg:py-20 lg:text-left xl:max-w-7xl">
@@ -15,7 +15,7 @@ export default function ProjectsSection() {
         </div>
         {/* END Hero Content */}
       </div>
-    </>
+    </main>
   );
 }
 
