@@ -10,10 +10,10 @@ module.exports = {
       colors: {
         primary: "#AA4151",
         secondary: "#F9EBDE",
-        tertiary: "#2F7232"
+        tertiary: "#1A2F44"
       },
       fontFamily: {
-        barlow: ["Barlow Condensed", "sans-serif"],
+        barlow: ["Barlow", "sans-serif"],
         vidaloka: ["Vidaloka", "sans-serif"]
       }
     }
