@@ -1,9 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 export default function HomeSection() {
   return (
-    <>
-      <div className="relative pt-6 overflow-hidden bg-primary dark:bg-gray-900 dark:text-gray-100">
+    <main>
+      <div className="relative pt-6 overflow-hidden bg-primary" >
         {/* Hero Content */}
         <div className="relative flex flex-col px-4 py-16 mx-auto space-y-16 text-center lg:flex-row lg:space-y-0 lg:px-20 lg:py-20 lg:text-left xl:max-w-7xl">
           <div className="lg:flex lg:w-1/2 lg:items-center">
@@ -18,11 +19,11 @@ export default function HomeSection() {
                 {"Frontend Developer"}
               </p>
               <div className="flex flex-col justify-center pt-10 pb-16 space-y-2 sm:flex-row sm:items-center sm:space-x-2 sm:space-y-0 lg:justify-start">
-                <a
-                  href="#"
+                <Link
+                  href="https://www.linkedin.com/in/fatima-merzouk/"
                   className="inline-flex items-center justify-center py-3 space-x-2 font-semibold leading-6 border-2 rounded-lg border-secondary bg-tertiary px-7 text-secondary hover:bg-secondary hover:text-tertiary hover:border-tertiary">
-                  <span>Get In Touch</span>
-                </a>
+                  <span>Get in Touch</span>
+                </Link>
               </div>
             </div>
           </div>
@@ -39,6 +40,6 @@ export default function HomeSection() {
         </div>
         {/* END Hero Content */}
       </div>
-    </>
+    </main>
   );
 }
