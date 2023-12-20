@@ -15,12 +15,13 @@ export default function Navbar() {
           <Logo />
         </div>
         <div className="flex items-center justify-end flex-1 lg:order-2">
-          <Link href="#Contact">
-          <button
-            type="button"
-            className="inline-flex items-center justify-center px-4 py-2 space-x-2 font-semibold leading-6 border-2 rounded-lg border-secondary bg-tertiary text-secondary hover:bg-secondary hover:text-tertiary hover:border-tertiary">
-            Get In Touch
-          </button></Link>
+          <Link href="https://www.linkedin.com/in/fatima-merzouk/">
+            <button
+              type="button"
+              className="inline-flex items-center justify-center px-4 py-2 space-x-2 font-semibold leading-6 border-2 rounded-lg border-secondary bg-tertiary text-secondary hover:bg-secondary hover:text-tertiary hover:border-tertiary">
+              Get In Touch
+            </button>
+          </Link>
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
@@ -35,9 +36,9 @@ export default function Navbar() {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"></path>
+                clipRule="evenodd"></path>
             </svg>
             <svg
               className="hidden w-6 h-6"
@@ -45,9 +46,9 @@ export default function Navbar() {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"></path>
+                clipRule="evenodd"></path>
             </svg>
           </button>
         </div>
@@ -76,19 +77,11 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link
-                href="#Skills"
-                className="block px-3 py-2 text-lg border-t font-barlow lg:border-0 border-secondary text-secondary"
-                aria-current="page">
-                Skills
-              </Link>
-            </li>
-            <li>
               <a
                 href="#Projects"
                 className="block px-3 py-2 text-lg border-t border-b lg:border-0 font-barlow border-secondary text-secondary"
                 aria-current="page">
-                Projects
+                Portfolio
               </a>
             </li>
           </ul>
