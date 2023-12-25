@@ -29,12 +29,12 @@ export default function HomeSection() {
           </div>
           <div className="px-16 py-20 lg:ml-16 md:px-0 lg:flex lg:w-1/2 lg:items-center lg:justify-center">
             <div className="relative mt-10 ml-3 -mr-2 lg:w-96 lg:mt-16">
-              <div className="absolute bottom-0 right-0 w-56 h-56 -mb-2 border-2 rounded-full lg:h-72 lg:w-72 border-secondary bg-primary" />
-              <div className="absolute bottom-0 right-0 -mb-[10px] -mr-[2px] border-2 rounded-full lg:h-[292px] lg:w-[292px] h-[228px] w-[228px] border-tertiary bg-transparent" />
-              <div className="absolute top-0 left-0 w-56 h-56 border-2 rounded-full -mt-36 bg-tertiary lg:h-72 lg:w-72 border-secondary" />
-              <div className="absolute top-0 left-0 w-48 h-48 -mt-40 -ml-20 border-2 rounded-full lg:w-64 lg:h-64 border-primary bg-secondary" />
-              <div className="absolute bottom-0 right-0 w-48 h-48 -mb-4 border-2 rounded-full lg:w-64 lg:h-64 -mr-14 border-tertiary bg-secondary" />
-              <div className="absolute top-0 left-0 border-2 rounded-full -mt-[146px] -ml-[2px] bg-transparent lg:h-[292px] lg:w-[292px] h-[228px] w-[228px] border-primary" />
+              <div className="absolute bottom-0 right-0 w-48 h-48 -mb-2 border-2 rounded-full lg:h-72 lg:w-72 border-secondary bg-primary" />
+              <div className="absolute bottom-0 right-0 -mb-[10px] -mr-[2px] border-2 rounded-full lg:h-[292px] lg:w-[292px] h-[196px] w-[196px] border-tertiary bg-transparent" />
+              <div className="absolute top-0 left-0 w-48 h-48 border-2 rounded-full -mt-36 bg-tertiary lg:h-72 lg:w-72 border-secondary" />
+              <div className="absolute top-0 left-0 w-40 h-40 -mt-40 -ml-20 border-2 rounded-full lg:w-64 lg:h-64 border-primary bg-secondary" />
+              <div className="absolute bottom-0 right-0 w-40 h-40 -mb-4 border-2 rounded-full lg:w-64 lg:h-64 -mr-14 border-tertiary bg-secondary" />
+              <div className="absolute top-0 left-0 border-2 rounded-full -mt-[146px] -ml-[2px] bg-transparent lg:h-[292px] lg:w-[292px] h-[196px] w-[196px] border-primary" />
             </div>
           </div>
         </div>

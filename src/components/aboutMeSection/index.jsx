@@ -6,13 +6,13 @@ export default function AboutMeSection() {
     <main id="AboutMe">
       <div className="relative pt-6 overflow-hidden bg-secondary">
         {/* Hero Content */}
-        <div className="relative flex flex-col px-4 py-16 mx-auto space-y-16 text-center lg:flex-row lg:space-y-0 lg:px-20 lg:py-20 lg:text-left xl:max-w-7xl">
+        <div className="relative flex flex-col px-4 mx-auto py-16 space-y-16 text-center lg:flex-row lg:space-y-0 lg:px-20 lg:py-20 lg:text-left xl:max-w-7xl">
           {/* Image Section */}
-          <div className="flex items-center justify-center w-full pt-32 lg:w-1/2">
-            <div className="relative flex flex-row items-center justify-center mt-10 w-96 lg:mt-16">
-              <div className="absolute top-0 left-0 w-48 h-48 ml-6 -mt-40 rounded-full lg:-ml-20 bg-primary lg:w-64 lg:h-64" />
-              <div className="absolute top-0 left-0 w-48 h-48 ml-56 -mt-56 rounded-full lg:ml-36 bg-tertiary lg:w-64 lg:h-64" />
-              <div className="absolute top-0 left-0 border-2 rounded-full ml-24 lg:ml-0 -mt-[146px] bg-transparent lg:h-[292px] lg:w-[292px] h-[228px] w-[228px] border-secondary bg-cover bg-right bg-[url('/images/Merzouk_Fatima_Zohra.jpg')]" />
+          <div className="flex items-center justify-center w-full pt-32 lg:w-1/2 lg:mr-10">
+            <div className="flex flex-col items-center justify-center mt-10 w-96 lg:mt-16">
+              <div className="absolute w-48 h-48 -mt-44 -ml-40 lg:-ml-48 lg:mr-8 rounded-full bg-primary lg:w-64 lg:h-64" />
+              <div className="absolute w-44 h-44 -mt-72 -mr-44 lg:-mr-48 lg:ml-8 rounded-full  bg-tertiary lg:w-64 lg:h-64" />
+              <div className="absolute border-2 rounded-full mx-auto -mt-32 lg:-mt-28 bg-transparent lg:h-72 lg:w-72 h-56 w-56 border-secondary bg-cover bg-right bg-[url('/images/Merzouk_Fatima_Zohra.jpg')]" />
             </div>
           </div>
           {/* Text Section */}
