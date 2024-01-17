@@ -9,14 +9,14 @@ export default function HomeSection() {
         <div className="relative flex flex-col px-4 py-16 mx-auto space-y-16 text-center lg:flex-row lg:space-y-0 lg:p-20 lg:text-left xl:max-w-7xl">
           <div className="lg:flex lg:w-1/2 lg:items-center">
             <div>
-              <p className="pb-2 text-4xl font-bold text-tertiary text-opacity-80 font-barlow">
+              <p className="pb-2 text-3xl lg:text-4xl font-bold text-tertiary text-opacity-80 font-barlow">
                 {"Hello, I'm"}
               </p>
-              <p className="mb-2 text-6xl font-vidaloka text-secondary">
+              <p className="mb-2 text-5xl  lg:text-6xl font-vidaloka text-secondary">
                 {"Fatima Zohra"}
               </p>
-              <p className="text-5xl font-bold text-secondary font-barlow">
-                {"Frontend Developer"}
+              <p className="text-3xl lg:text-5xl font-bold text-secondary font-barlow">
+                {"A Frontend Developer"}
               </p>
               <div className="flex flex-col justify-center pt-10 pb-16 space-y-2 sm:flex-row sm:items-center sm:space-x-2 sm:space-y-0 lg:justify-start">
                 <Link
