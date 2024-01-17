@@ -6,12 +6,12 @@ import ProjectsSection from "@/components/projectsSection";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen bg-primary -z-50">
+    <main className="w-full h-screen bg-primary -z-10">
       <Layout>
         <HomeSection />
         <AboutMeSection />
-      {/* <ProjectsSection /> */}
+        <ProjectsSection />
       </Layout>
-    </div>
+    </main>
   );
 }
