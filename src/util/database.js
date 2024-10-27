@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     name: "C&Chill",
-    url: "https://cnchill.netlify.app/",
+    url: "https://cnchill.vercel.app/",
     code: "https://github.com/202306-NEA-DZ-FEW/movie-project-codenchill",
     image: "/images/C&Chill.png",
     description: "Movies Website",
